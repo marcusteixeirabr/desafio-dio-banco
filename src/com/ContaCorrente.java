@@ -2,8 +2,8 @@ package com;
 
 public class ContaCorrente extends Conta {
     
-    public ContaCorrente(Cliente cliente) {
-        super(cliente);
+    public ContaCorrente(Banco banco,Cliente proprietario) {
+        super(banco, proprietario);
     }
 
     @Override
